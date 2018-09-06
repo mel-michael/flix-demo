@@ -1,34 +1,36 @@
 {
-  "station": {
-    "id": 1,
-    "name": "station-blue",
-    "slots": [
+  "station": [
       {
-        "id": 11,
-        "name": "st-11",
-        "is_free": true,
-        "busId": ""
-      },
-      {
-        "id": 12,
-        "name": "st-12",
-        "is_free": true,
-        "busId": ""
-      },
-      {
-        "id": 13,
-        "name": "st-13",
-        "is_free": true,
-        "busId": ""
-      },
-      {
-        "id": 14,
-        "name": "st-14",
-        "is_free": true,
-        "busId": ""
-      }
-    ]
-  },
+      "id": 1,
+      "name": "station-blue",
+      "slots": [
+        {
+          "id": 11,
+          "name": "st-11",
+          "is_free": true,
+          "busId": ""
+        },
+        {
+          "id": 12,
+          "name": "st-12",
+          "is_free": true,
+          "busId": ""
+        },
+        {
+          "id": 13,
+          "name": "st-13",
+          "is_free": true,
+          "busId": ""
+        },
+        {
+          "id": 14,
+          "name": "st-14",
+          "is_free": true,
+          "busId": ""
+        }
+      ]
+    }
+  ],
   "bus": [
     {
       "busId": 11,
