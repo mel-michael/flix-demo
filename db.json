@@ -48,30 +48,30 @@
   "bus": [
     {
       "id": 11,
-      "plateNumber": "BUS-XXX-XXX",
       "name": "bus-red",
       "type": "regular",
+      "plateNumber": "BUS-XXX-XXX",
       "stationId": 1
     },
     {
       "id": 12,
-      "plateNumber": "BUS-XXX-YYY",
       "name": "bus-green",
       "type": "regular",
+      "plateNumber": "BUS-XXX-YYY",
       "stationId": 1
     },
     {
       "id": 13,
-      "plateNumber": "BUS-XXX-ZZZ",
       "name": "bus-blue",
       "type": "doubledecker",
+      "plateNumber": "BUS-XXX-ZZZ",
       "stationId": 2
     },
     {
       "id": 14,
-      "plateNumber": "BUS-XYZ-XXX",
       "name": "bus-black",
       "type": "regular",
+      "plateNumber": "BUS-XYZ-XXX",
       "stationId": 2
     }
   ]
