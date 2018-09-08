@@ -36,34 +36,41 @@
           "name": "st-22"
         }
       ]
+    },
+    {
+      "id": 500,
+      "name": "station-beryll",
+      "numOfSlots": 4,
+      "availableSlots": 4,
+      "slots": []
     }
   ],
   "bus": [
     {
       "id": 11,
       "plateNumber": "BUS-XXX-XXX",
-      "busName": "bus-red",
+      "name": "bus-red",
       "type": "regular",
       "stationId": 1
     },
     {
       "id": 12,
       "plateNumber": "BUS-XXX-YYY",
-      "busName": "bus-green",
+      "name": "bus-green",
       "type": "regular",
       "stationId": 1
     },
     {
       "id": 13,
       "plateNumber": "BUS-XXX-ZZZ",
-      "busName": "bus-blue",
+      "name": "bus-blue",
       "type": "doubledecker",
       "stationId": 2
     },
     {
       "id": 14,
       "plateNumber": "BUS-XYZ-XXX",
-      "busName": "bus-black",
+      "name": "bus-black",
       "type": "regular",
       "stationId": 2
     }
