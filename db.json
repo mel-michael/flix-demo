@@ -2,47 +2,88 @@
   "station": [
     {
       "id": 1,
-      "name": "station-blue",
-      "numOfSlots": 3,
-      "availableSlots": 2,
+      "name": "station blues",
+      "numOfSlots": 4,
+      "availableSlots": 1,
       "slots": [
         {
           "id": 11,
-          "name": "st-11"
+          "busId": 72
         },
         {
-          "id": 12,
-          "name": "st-12"
+          "id": 12
         },
         {
           "id": 13,
-          "name": "st-13",
-          "busId": 11
+          "busId": 12
+        },
+        {
+          "id": 27
         }
       ]
     },
     {
       "id": 2,
-      "name": "station-green",
+      "name": "station green",
       "numOfSlots": 2,
-      "availableSlots": 0,
+      "availableSlots": 1,
       "slots": [
         {
-          "id": 21,
-          "name": "st-21"
+          "id": 11,
+          "busId": 13
         },
         {
-          "id": 22,
-          "name": "st-22"
+          "id": 21
         }
       ]
     },
     {
       "id": 500,
-      "name": "station-beryll",
+      "name": "station beryl",
       "numOfSlots": 4,
-      "availableSlots": 4,
-      "slots": []
+      "availableSlots": 1,
+      "slots": [
+        {
+          "id": 16,
+          "busId": 11
+        },
+        {
+          "id": 19,
+          "busId": 782
+        },
+        {
+          "id": 39,
+          "busId": 125
+        },
+        {
+          "id": 63
+        }
+      ]
+    },
+    {
+      "name": "South Park",
+      "numOfSlots": 5,
+      "id": 432,
+      "availableSlots": 2,
+      "slots": [
+        {
+          "id": 5,
+          "busId": 408
+        },
+        {
+          "id": 12,
+          "busId": 367
+        },
+        {
+          "id": 85
+        },
+        {
+          "id": 11
+        },
+        {
+          "id": 20
+        }
+      ]
     }
   ],
   "bus": [
@@ -50,29 +91,57 @@
       "id": 11,
       "name": "bus-red",
       "type": "regular",
-      "plateNumber": "BUS-XXX-XXX",
-      "stationId": 1
+      "stationId": 500,
+      "plateNumber": "BUS-XXX-XXX"
     },
     {
       "id": 12,
       "name": "bus-green",
       "type": "regular",
-      "plateNumber": "BUS-XXX-YYY",
-      "stationId": 1
+      "stationId": 1,
+      "plateNumber": "BUS-XXX-YYY"
     },
     {
       "id": 13,
       "name": "bus-blue",
       "type": "doubledecker",
-      "plateNumber": "BUS-XXX-ZZZ",
-      "stationId": 2
+      "stationId": 2,
+      "plateNumber": "BUS-XXX-ZZZ"
     },
     {
-      "id": 14,
-      "name": "bus-black",
+      "id": 72,
+      "name": "Holley Vans",
       "type": "regular",
-      "plateNumber": "BUS-XYZ-XXX",
-      "stationId": 2
+      "stationId": 1,
+      "plateNumber": "BUS-72-72"
+    },
+    {
+      "id": 782,
+      "name": "Jorg Valley",
+      "type": "doubledecker",
+      "plateNumber": "BUS-C3B-959",
+      "stationId": 500
+    },
+    {
+      "name": "Chelsea Bolt",
+      "type": "doubledecker",
+      "id": 408,
+      "stationId": 432,
+      "plateNumber": "BUS-C94-289"
+    },
+    {
+      "name": "HBS Flight",
+      "type": "regular",
+      "id": 367,
+      "stationId": 432,
+      "plateNumber": "BUS-5C8-261"
+    },
+    {
+      "name": "Saw May",
+      "type": "doubledecker",
+      "id": 125,
+      "stationId": 500,
+      "plateNumber": "BUS-183-D50"
     }
   ]
 }
